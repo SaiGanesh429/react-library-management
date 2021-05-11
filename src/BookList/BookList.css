@@ -1,0 +1,39 @@
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #895c7b;
+    padding: 1rem;
+    border-radius: 4%;
+    margin: 2rem;
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    font-family: ui-rounded;
+}
+
+.book:hover {
+    border: 3px solid green;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+.author {
+    display: block;
+    color: blue;
+    font-size: 1rem;
+    font-family: cursive;
+}
+.edit-book {
+    margin: 10px;
+}
+
+.desc {
+    color: black;
+    text-align: justify;
+    font-family: cursive;
+    font-size: 0.95rem;
+}

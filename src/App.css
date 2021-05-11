@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body {
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.book-list {
+  display: flex;
+}
+nav-bar {
+  width: 100%;
+  display: flex;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  background: #000;
+}
+a {
+  text-decoration: none;
+  float: left;
+  width: 10%;
+  height: 2px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  font-family: cursive;
+}
+
+a:hover {
+  color: #e42a5a;
+  font-family: cursive;
+}
+
+a.active {
+  color: #e42a5a;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.update-book-btn {
+  padding: 2px;
+  width: 7rem;
+  color: blue;
+  background: yellow;
+  margin: 13px;
+}

@@ -1,0 +1,13 @@
+.input-field {
+    padding: 1rem 1rem 0.5rem 1rem;
+    display: flex;
+}
+
+label {
+    width: 12rem;
+    font-family: cursive;
+}
+
+.error-message {
+    color: red;
+}
