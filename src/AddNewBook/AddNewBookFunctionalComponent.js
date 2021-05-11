@@ -42,6 +42,9 @@ const AddNewBookFunctionalComponent = props => {
         // });
         // state.newBookFormFields = updatedState
 
+
+        
+
         console.log(event.target.value, event, fieldName,22)
 
         fieldName === 'Book Name' ? setBookName(event.target.value) : setAuthorName(event.target.value)
