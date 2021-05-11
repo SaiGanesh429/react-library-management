@@ -6,9 +6,9 @@ import Header from './shared/Header/Header'
 import BookList from './BookList/BookList';
 // import StyleComponent from './Styled-components/Styled-components'
 import { BrowserRouter, Route, NavLink, Switch, Redirect } from 'react-router-dom'
-import AddNewBook from './AddNewBook/AddNewBook';
+// import AddNewBook from './AddNewBook/AddNewBook';
 import BookFullView from './BookFullView/BookFullView';
-// import AddNewBookFunctionalComponent from './AddNewBook/AddNewBookFunctionalComponent';
+import AddNewBookFunctionalComponent from './AddNewBook/AddNewBookFunctionalComponent';
 
 
 class App extends Component {
@@ -72,7 +72,9 @@ class App extends Component {
               <Switch>
                 <Route path='/book' component={BookList} />
                 <Route path='/book-full-view/:id' component={BookFullView} />
-                <Route path='/add-book' component={AddNewBook} />
+                {/* <Route path='/add-book' component={AddNewBook} /> */}
+                <Route path='/add-book' component={AddNewBookFunctionalComponent} />
+
                 <Redirect from='/' to='/book' />
               </Switch>
 
